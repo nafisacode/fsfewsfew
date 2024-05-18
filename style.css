@@ -1,0 +1,78 @@
+body{
+      background: url(./rasm/bg.jpg);
+      background-size: cover;
+}
+
+h1{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 240px;
+}
+
+.player1{
+      color: #fff;
+}
+
+.player2{
+      color: #fff;
+}
+
+.btns{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      gap: 30px;
+}
+
+.btn1:hover, .btn2:hover{
+      cursor: pointer;
+      opacity: 0.7;
+}
+
+.btn1{
+      padding: 12px 24px;
+      background: #c79d0c;
+      border: none;
+      border-radius: 12px;
+}
+
+.btn2{
+      padding: 12px 24px;
+      background: #c79d0c;
+      border: none;
+      border-radius: 12px;
+}
+
+.select{
+      margin-left: 730px;
+      position: relative;
+      top: 100px;
+      padding: 10px 15px;
+      border: none;
+      background: #c97ed0;
+      border-radius: 12px;
+      color: #fff;
+}
+
+.select:hover{
+      cursor: pointer;
+      opacity: 0.8;
+}
+
+.reset{
+      margin-left: 700px;
+      position: relative;
+      top: 200px;
+      padding: 12px 50px;
+      border: none;
+      background: #7de09c;
+      border-radius: 20%;
+}
+
+.reset:hover{
+      cursor: pointer;
+      background: greenyellow;
+      color: #fff;
+      border-radius: 50px;
+}
